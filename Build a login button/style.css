@@ -19,6 +19,16 @@ button {
   font-size: 16px; /* Adjusting font size for better readability */
 }
 
+/* Adding hover effect - brighter background color when hovered over */
+.rounded-button:hover {
+  background-color: #51a6fb; /* Brighter blue color on hover */
+}
+
+/* Adding click effect - darker background color when clicked */
+.rounded-button:active {
+  background-color: #0f76c8; /* Darker blue color when clicked */
+}
+
 /* Centering the button horizontally */
 .container {
   text-align: center;
