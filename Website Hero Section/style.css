@@ -1,8 +1,3 @@
-/*
-  Challenge:
-   * Increase the size of the image
-*/
-
 /* Reset default margins and paddings */
 body,
 h1,
@@ -10,6 +5,10 @@ h2,
 p {
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: "Rubik", sans-serif; /* Set the font to Rubik */
 }
 
 /* Style the logo image */
@@ -31,7 +30,7 @@ p {
 
 /* Style the main heading */
 .hero-heading {
-  font-family: "Rubik", sans-serif; /* Set the font to Rubik */
+  font-family: inherit;
   font-size: 58px;
   color: #333333;
   margin-bottom: 20px;
@@ -39,6 +38,7 @@ p {
 
 /* Style the subheading */
 .hero-subheading {
+  font-family: inherit;
   font-size: 24px;
   color: #84412f;
   margin-bottom: 30px;
@@ -46,6 +46,7 @@ p {
 
 /* Style the description paragraph */
 .hero-description {
+  font-family: inherit;
   font-size: 18px;
   color: #777777;
   line-height: 1.4;
