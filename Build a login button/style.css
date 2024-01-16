@@ -1,0 +1,22 @@
+/* Resetting default margin and padding for consistent styling */
+body, h1, h2, p, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Making the button visually rounded and giving it a background color */
+.rounded-button {
+    border-radius: 25px; /* Control the button's roundness */
+    padding: 10px 20px; /* Adjust padding for better appearance */
+    background-color: #1DA1F2; /* Twitter blue color */
+    color: #ffffff; /* White text color */
+    border: none; /* Removing default button border */
+    cursor: pointer; /* Adding a pointer cursor for better user feedback */
+    font-size: 16px; /* Adjusting font size for better readability */
+}
+
+/* Centering the button horizontally */
+.container {
+    text-align: center;
+    margin-top: 20px; /* Adding space above the button for visual separation */
+}
