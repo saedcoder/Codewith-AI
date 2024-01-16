@@ -1,36 +1,69 @@
-/* Resetting default margin and padding for consistent styling */
+/*
+  Challenge:
+   * Increase the size of the image
+*/
+
+/* Reset default margins and paddings */
 body,
 h1,
 h2,
-p,
-button {
+p {
   margin: 0;
   padding: 0;
 }
 
-/* Making the button visually rounded and giving it a background color */
-.rounded-button {
-  border-radius: 25px;
-  padding: 10px 20px; /* Adjust padding for better appearance */
-  background-color: #1da1f2; /* Twitter blue color */
-  color: #ffffff; /* White text color */
-  border: none; /* Removing default button border */
-  cursor: pointer; /* Adding a pointer cursor for better user feedback */
-  font-size: 16px; /* Adjusting font size for better readability */
+/* Style the logo image */
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 180px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add soft shadow */
 }
 
-/* Adding hover effect - brighter background color when hovered over */
-.rounded-button:hover {
-  background-color: #51a6fb; /* Brighter blue color on hover */
-}
-
-/* Adding click effect - darker background color when clicked */
-.rounded-button:active {
-  background-color: #0f76c8; /* Darker blue color when clicked */
-}
-
-/* Centering the button horizontally */
-.container {
+/* Set the background color and center the content */
+.hero {
+  background-color: #f5f5f5;
   text-align: center;
-  margin-top: 20px; /* Adding space above the button for visual separation */
+  padding: 60px;
+}
+
+/* Style the main heading */
+.hero-heading {
+  font-family: "Rubik", sans-serif; /* Set the font to Rubik */
+  font-size: 58px;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+/* Style the subheading */
+.hero-subheading {
+  font-size: 24px;
+  color: #84412f;
+  margin-bottom: 30px;
+}
+
+/* Style the description paragraph */
+.hero-description {
+  font-size: 18px;
+  color: #777777;
+  line-height: 1.4;
+  margin-bottom: 40px;
+}
+
+/* Style the call-to-action button */
+.cta-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #555555;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 26px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #333333;
 }

@@ -11,3 +11,7 @@ Consider the following guidelines for the code :
 - Document each CSS property you use with a short code comment to explain its purpose.
 
 Your Final result should be an engaging and visually appealing hero section that effectively showcases the HoverChair brand.
+
+## Prompt 2
+
+Update the HTML and CSS by adding a small, rounded image named 'chair.png' above the hero heading. Add a soft shadow behind the image.
